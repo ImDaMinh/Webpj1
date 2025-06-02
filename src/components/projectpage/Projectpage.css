@@ -1,0 +1,138 @@
+/* ProjectPage.css */
+
+/* Reset & layout */
+.project-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  background-color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  font-weight: bold;
+}
+
+.navbar .logo {
+  color: #4262ff;
+  font-size: 24px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar .open-map-btn {
+  background: #4262ff;
+  color: white;
+  border-radius: 10px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Hero section */
+.hero {
+  margin: 40px auto;
+  max-width: 90%;
+  background-color: #b6e3dd;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.hero img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero .search-bar {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero input[type="text"] {
+  padding: 12px 16px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  font-size: 16px;
+  flex: 1;
+}
+
+.hero button {
+  padding: 12px 20px;
+  border: none;
+  background-color: #4262ff;
+  color: white;
+  font-size: 18px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+/* Features section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px auto;
+  max-width: 90%;
+  text-align: center;
+}
+
+.feature-box {
+  flex: 1;
+  padding: 20px;
+}
+
+.feature-box h3 {
+  color: #4262ff;
+  margin-top: 16px;
+}
+
+.feature-box p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #444;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background-color: #03194f;
+  color: white;
+}
+
+.footer .column {
+  flex: 1;
+}
+
+.footer .column h4 {
+  margin-bottom: 10px;
+}
+
+.footer .column p {
+  font-size: 12px;
+  opacity: 0.8;
+}

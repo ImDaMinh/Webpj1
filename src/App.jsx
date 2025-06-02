@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import MyInfoPage from './components/myinfopage/MyInfoPage';
-import ProjectsPage from './components/projectpage/ProjectsPage';
+import ProjectsPage from './components/projectpage/ProjectPage';
 
 function App() {
   // Lấy theme từ localStorage hoặc mặc định là dark

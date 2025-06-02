@@ -9,7 +9,7 @@ function MyInfoPage() {
       <div className="info-card" style={{ position: 'relative', zIndex: 1 }}>
         <img src={avatar} alt="Avatar" className="avatar" />
         <h1>Xin chào, mình là Minh 👋</h1>
-        <p>Chỉ là một thằng ất ơ muốn làm web ✨</p>
+        <p>Chỉ là dev web ✨</p>
         <p>
           Kết nối với mình:
           <a href="https://github.com/duy" target="_blank"> GitHub</a> |
